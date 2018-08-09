@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgraund">#f5ebeb</color>
+    <color name="backgraund_new">#f1f1f1</color>
+    <color name="backgraund_full">#cfcfcf</color>
+    <color name="btn_color">#0B68B4</color>
+    <color name="txt1_color">#161616</color>
+    <color name="txt_color_light">#686565</color>
+    <color name="txt_color_light2">#454242</color>
+    <color name="backgraund_white">#ffffff</color>
+
+    <color name="txt_under_line">#1CB0BC</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="under_line">#38B7C2</color>
+    <color name="text_comment">#0B66B1</color>
+    <color name="border_color">#969191</color>
+    <color name="bt_util_border">#EE5741</color>
+    <color name="bt_compition_border">#7AB300</color>
+    <color name="more_text">#F05842</color>
+    <color name="light_text">#a69f9f</color>
+    <color name="calender_text">#0B68B4</color>
+    <color name="orange">#EE5741</color>
+    <color name="previous_month_date">#686565</color>
+    <color name="eventcolor">#51A9BA</color>
+    <color name="tool_sign">#365370</color>
+    <color name="nav_second_title">#EBB206</color>
+    <color name="highlited_date">#fca829</color>
+    <color name="login_edit">#564e51</color>
+    <color name="login_page">#D9FFC478</color>
+    <color name="orange_btn">#fc8429</color>
+    <color name="hintColor">#B5B5B5</color>
+    <color name="tool">#d67f3e</color>
+    <color name="search_page">#c5f9dc98</color>
+    <color name="search_item">#c5ffecc1</color>
+</resources>

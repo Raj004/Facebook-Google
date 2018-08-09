@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/attach"
+        android:layout_marginTop="@dimen/dp_40"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="MyStrimz"
+        android:textColor="@color/txt1_color"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ivPic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:text="@string/google"
+        android:textAllCaps="false"
+        android:textColor="@color/txt1_color"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintTop_toBottomOf="@+id/text_img"
+        android:layout_marginTop="@dimen/dp_30"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:background="@drawable/edit_text_google"
+        android:text="@string/facebook"
+        android:textAllCaps="false"
+        android:textColor="@color/txt1_color"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintTop_toBottomOf="@+id/google_login"
+        android:layout_marginTop="@dimen/dp_20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_or"
+        android:text="@string/or_sign"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/btn_color"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facebook_login"
+        android:layout_marginTop="@dimen/dp_50" />
+
+    <Button
+        android:id="@+id/login_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_or"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="@drawable/edit_text_google"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        app:layout_constraintRight_toLeftOf="@id/text_or"
+        app:layout_constraintTop_toBottomOf="@+id/facebook_login"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sign_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_or"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/edit_text_google"
+        android:text="@string/sign"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toRightOf="@id/text_or"
+        app:layout_constraintTop_toBottomOf="@+id/facebook_login" />
+</android.support.constraint.ConstraintLayout>
